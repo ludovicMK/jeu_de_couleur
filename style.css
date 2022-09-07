@@ -19,12 +19,12 @@ header nav .play{
     height: 30px;
     padding: 1rem;
     font-size: 15px;
-    background: hsl(120, 98%, 20%);
+    background: hsl(330, 100%, 47%);
     transition: all .3s ease-in-out;
 }
 
 header nav .aide{
-    background: hsl(100, 100%, 50%);
+    background: hsl(61, 100%, 50%);
     width: 100px;
     height: 30px;
     padding: 1rem;
@@ -74,7 +74,7 @@ button{
 }
 
 .bouton1, .bouton2, .bouton3{
-    background: #096221;
+    background: #94017b;
     opacity: 0.9;
 }
 *{
@@ -92,7 +92,7 @@ header{
     justify-content: space-around;
 }
 
-header .logo{
+header .pres{
     margin-top: 10px;
 }
 
@@ -101,13 +101,14 @@ header nav{
     margin-top: 10px;
 }
 
-header nav .play{
+header nav .joue{
     width: 100px;
     height: 30px;
     padding: 1rem;
     font-size: 15px;
     background: hsl(120, 98%, 20%);
     transition: all .3s ease-in-out;
+    text-align: center;
 }
 
 header nav .aide{
@@ -155,9 +156,15 @@ main{
 
 button{
     width: 40%;
+    border: 5px solid rgb(248, 0, 165);
     height: 100px;
+    border-radius: 20px;
     font-size: 20px;
     text-transform: uppercase;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 .bouton1, .bouton2, .bouton3{
@@ -166,11 +173,11 @@ button{
 }
 
 .bouton4{
-    background: #9a0e01;
+    background: #10019a;
     opacity: 0.9;
 }
 .bouton4{
-    background: #9a0e01;
+    background: #df7700;
     opacity: 0.9;
 }
 

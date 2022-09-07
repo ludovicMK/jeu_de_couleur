@@ -27,6 +27,9 @@ function changementCouleur(){
 function main(){
     let temp = setInterval(
     changementCouleur, 800)
+    setTimeout(() => {
+        clearInterval(temp)
+    }, 5000);
 }
 
 
